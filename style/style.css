@@ -1,0 +1,72 @@
+footer a {
+  color: #f5f5f5;
+  text-decoration: none;
+}
+
+footer a:hover,
+footer i:hover,
+nav li a:hover {
+  color: #f9c20d !important;
+  text-decoration: none;
+}
+h1 {
+  color: grey;
+}
+
+/** IMAGE DE FOND DU HEADER INTRO DU SITE */
+.acceuil {
+  color: white;
+  height: 90vh;
+  background-image: url(./assets/img-header.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: object-fit;
+  margin-top: 0;
+
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  opacity: 1;
+}
+/** CENTRAGE TITRE ET SOUS TITRE SUR PAGE D ACCUEIL */
+.accueil {
+  height: 100vh;
+  text-align: center;
+  margin-top: 20%;
+}
+
+/** MISE EN FORME DU BOUTON QUI SUIS JE SUR PAGE ARRIVE DU SITE */
+.start {
+  width: 450px;
+  max-width: 500px;
+  height: 60px;
+  background: rgb(6, 129, 167);
+  border: rgba(48, 48, 48, 0.5) solid 1px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+/** MISE EN FORME DU TEXTE QUI SUIS JE SUR PAGE ARRIVE DU SITE */
+.start > a {
+  font-weight: bolder;
+  text-decoration: none;
+  font-size: 28px;
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.photo-identity {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+#photo-identity {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+/*MISE EN PLCE DE LA SIGNATURE A DROITE DE LA PAGE */
+#signature {
+  text-align: right;
+}

@@ -1,0 +1,97 @@
+/** GENERAL PAGE */
+body {
+  /* background-color: rgba(44, 43, 43, 0.717); */
+}
+h1 {
+  color: grey;
+}
+h2 {
+  font-size: 1.5em;
+  text-align: center;
+  color: grey;
+}
+p {
+  font-size: 1em;
+  color: grey;
+}
+
+/** FRONT END */
+.html5 {
+  color: #E65100;
+}
+.css3 {
+  color: #0177BD;
+}
+.javascript {
+  color: #FED602;
+}
+.bootstrap {
+  color: #673AB6;
+}
+
+/** BACK-END */
+.php {
+  color: #6280B6;
+}
+.mysql {
+  color: #016089;
+}
+
+/** OUTILS */
+.git {
+  color: #F34E29;
+}
+.github {
+  color: #3D75C2;
+}
+.gitlab {
+  color: #e2432a;
+}
+.bitbucket {
+  color: #253858;
+}
+.vscode {
+  color: #1E9CEF;
+}
+
+/** CMS */
+.wordpress {
+  color: #007499;
+}
+.joomla {
+  color: #4CAF4F;
+}
+.drupal {
+  color: #039BE5;
+}
+.prestashop {
+  color: #AFDEEC;
+}
+
+/** FRAMEWORKS */
+.jquery {
+  color: blue;
+}
+.angular {
+  color: #DD0031;
+}
+.laravel {
+  color: #EE533F;
+}
+.symfony {
+  color: #000000;
+}
+.vuejs {
+  color: #3FB883;
+}
+.reactjs {
+  color: #61DAFB;
+}
+.nodejs {
+  color: #83CD29;
+}
+
+/** METHODES */
+.agile {
+  color: #B8B1C4;
+}
